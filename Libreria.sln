@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\Da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessRules", "BusinessRules\BusinessRules.csproj", "{D5B84552-2870-460D-8704-9C4C5AB92786}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Libreria.Database", "Libreria.Database\Libreria.Database.sqlproj", "{A72C75FC-9DD0-4697-B469-5CA42A70C89D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libreria.TestProject", "Libreria.TestProject\Libreria.TestProject.csproj", "{53A83220-3297-4A7E-AD8C-227805EF2280}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,16 @@ Global
 		{D5B84552-2870-460D-8704-9C4C5AB92786}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5B84552-2870-460D-8704-9C4C5AB92786}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5B84552-2870-460D-8704-9C4C5AB92786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A72C75FC-9DD0-4697-B469-5CA42A70C89D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A72C75FC-9DD0-4697-B469-5CA42A70C89D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A72C75FC-9DD0-4697-B469-5CA42A70C89D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A72C75FC-9DD0-4697-B469-5CA42A70C89D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A72C75FC-9DD0-4697-B469-5CA42A70C89D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A72C75FC-9DD0-4697-B469-5CA42A70C89D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{53A83220-3297-4A7E-AD8C-227805EF2280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53A83220-3297-4A7E-AD8C-227805EF2280}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53A83220-3297-4A7E-AD8C-227805EF2280}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53A83220-3297-4A7E-AD8C-227805EF2280}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
